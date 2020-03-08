@@ -1,0 +1,64 @@
+   name    
+-----------
+ Jordan
+ Cassandra
+ Andrew
+ Alexis
+ Jessica
+(5 rows)
+
+ name | grade | name  | grade 
+------+-------+-------+-------
+ John |    12 | Haley |    10
+(1 row)
+
+   name    | grade |  name   | grade 
+-----------+-------+---------+-------
+ Cassandra |     9 | Gabriel |     9
+ Jessica   |    11 | Kyle    |    12
+(2 rows)
+
+ grade |  name   
+-------+---------
+     9 | Jordan
+     9 | Tiffany
+    12 | Logan
+(3 rows)
+
+   name   | grade |  name  | grade 
+----------+-------+--------+-------
+ John     |    12 | Haley  |    10
+ Alexis   |    11 | Kris   |    10
+ Austin   |    11 | Jordan |    12
+ Brittany |    10 | Kris   |    10
+(4 rows)
+
+ grade |   name   
+-------+----------
+     9 | Jordan
+    10 | Brittany
+    10 | Haley
+    10 | Kris
+    11 | Gabriel
+    12 | John
+    12 | Logan
+(7 rows)
+
+ a_name | a_grade |  b_name   | b_grade | c_name  | c_grade 
+--------+---------+-----------+---------+---------+---------
+ Andrew |      10 | Cassandra |       9 | Gabriel |       9
+ Austin |      11 | Jordan    |      12 | Andrew  |      10
+ Austin |      11 | Jordan    |      12 | Kyle    |      12
+(3 rows)
+
+ diff 
+------
+    2
+(1 row)
+
+   name    | grade 
+-----------+-------
+ Cassandra |     9
+ Kris      |    10
+(2 rows)
+
